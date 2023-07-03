@@ -48,7 +48,7 @@ func init() {
 	generatedName = flag.String(
 		nameArg,
 		"",
-		"output generated file paths instead of removing it.",
+		"regex for specific generated code name for example (mockery) ",
 	)
 
 	if Tag != "" {
