@@ -1,4 +1,4 @@
-package reviser
+package remover
 
 import (
 	"errors"
